@@ -1,0 +1,271 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Reset and Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000; /* Dark mode background */
+  color: #ffffff; /* White text */
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #ffffff; /* Light mode background */
+  color: #000000; /* Black text */
+}
+
+/* Container */
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Flex Utilities */
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f_flex {
+  display: flex;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #32cd32; /* Green links in dark mode */
+}
+
+body.light-mode a {
+  color: #007bff; /* Blue links in light mode */
+}
+
+/* Lists */
+li {
+  list-style: none;
+}
+
+/* Text Transform */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Buttons */
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #ffffff; /* White text */
+  background: linear-gradient(145deg, #1f1f1f, #2b2b2b); /* Dark button shades */
+  box-shadow: 4px 4px 8px #0d0d0d, -4px -4px 8px #363636;
+}
+
+.btn_shadow:hover {
+  background: #32cd32; /* Green on hover */
+  color: #ffffff;
+  transform: translateY(-10px);
+}
+
+/* Light Mode Button Styles */
+body.light-mode .btn_shadow {
+  background: linear-gradient(145deg, #e0e0e0, #f0f0f0);
+  box-shadow: 4px 4px 8px #c9c9c9, -4px -4px 8px #ffffff;
+  color: #000000;
+}
+
+body.light-mode .btn_shadow:hover {
+  background: #007bff;
+  color: #ffffff;
+}
+
+/* Box Shadows */
+.box_shadow {
+  background: linear-gradient(145deg, #1f1f1f, #2b2b2b);
+  box-shadow: 4px 4px 8px #0d0d0d, -4px -4px 8px #363636;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Light Mode Box Shadows */
+body.light-mode .box_shadow {
+  background: linear-gradient(145deg, #e0e0e0, #f0f0f0);
+  box-shadow: 4px 4px 8px #c9c9c9, -4px -4px 8px #ffffff;
+}
+
+/* Layout */
+.row, .left, .right {
+  width: 50%;
+}
+
+.top {
+  margin-top: 80px;
+}
+
+.mtop {
+  margin-top: 40px;
+}
+
+/* Heading */
+.heading {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.heading h4 {
+  color: #32cd32; /* Green text */
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.heading h1 {
+  font-size: 60px;
+  color: inherit; /* Inherits from body */
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+/* Grid System */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  color: inherit; /* Inherits from body */
+}
+
+/* Text Center */
+.text-center {
+  text-align: center;
+}
+
+/* Primary Color */
+.primary_color {
+  color: #32cd32;
+}
+
+/* Form Inputs */
+textarea, input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  outline: none;
+  border: 3px solid #363636;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+textarea:focus, input:focus {
+  border-color: #32cd32;
+}
+
+/* Light Mode Form Styles */
+body.light-mode textarea,
+body.light-mode input {
+  background-color: #ffffff;
+  color: #000000;
+  border: 3px solid #e0e0e0;
+}
+
+body.light-mode textarea:focus,
+body.light-mode input:focus {
+  border-color: #007bff;
+}
+
+/* Footer */
+footer {
+  margin: 60px 0;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1f1f1f;
+}
+
+footer p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+footer a {
+  font-weight: 500;
+}
+
+body.light-mode footer {
+  background-color: #f0f0f0;
+}
+
+body.light-mode footer p {
+  color: #000000;
+}
+
+body.light-mode footer a {
+  color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  .heading h1 {
+    font-size: 40px;
+  }
+
+  .btn_shadow {
+    padding: 15px 20px;
+  }
+
+  .box_shadow {
+    padding: 20px;
+  }
+
+  textarea, input {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+  }
+
+  .btn_shadow {
+    padding: 12px 18px;
+  }
+}

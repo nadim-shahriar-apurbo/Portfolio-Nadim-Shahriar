@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "./static/css/main.83bcc115.css",
+    "main.js": "./static/js/main.88e5dd1f.js",
+    "static/js/488.9561f9b8.chunk.js": "./static/js/488.9561f9b8.chunk.js",
+    "static/media/aiubcsfest.png": "./static/media/aiubcsfest.f72fe29a89eb9b2a4f1a.png",
+    "static/media/realhero.jpg": "./static/media/realhero.c891d7dccc5f56fb9d3a.jpg",
+    "static/media/robotech.png": "./static/media/robotech.d6b995a1544485abd134.png",
+    "static/media/khudebiggani.png": "./static/media/khudebiggani.b7c6eec96c0b83075d4b.png",
+    "static/media/soccer.png": "./static/media/soccer.936ed27158f6eb8211e8.png",
+    "static/media/Road-Link.png": "./static/media/Road-Link.1f9d006dc2d3a799bd69.png",
+    "static/media/conrad.jpg": "./static/media/conrad.272aac82b5ff3d4ff6c0.jpg",
+    "static/media/skill2.png": "./static/media/skill2.073a4297af1cb772be63.png",
+    "static/media/skill6.png": "./static/media/skill6.c44b9b809ebf766cbb4f.png",
+    "static/media/hexacopter.jpg": "./static/media/hexacopter.b61946d72c55b24b12a2.jpg",
+    "static/media/N.Shahriar.pdf": "./static/media/N.Shahriar.da248f9f0e7419ffcac9.pdf",
+    "static/media/skill4.png": "./static/media/skill4.51319eb1c9d57bd3dd28.png",
+    "static/media/skill5.png": "./static/media/skill5.6056bf20ce1b55cfd06b.png",
+    "static/media/skill1.png": "./static/media/skill1.057fccbfeb08cb9a6f73.png",
+    "static/media/skill3.png": "./static/media/skill3.e4d915db84978f37ee17.png",
+    "static/media/contract.jpg": "./static/media/contract.f2dafdf433cc51160d62.jpg",
+    "static/media/logo.jpg": "./static/media/logo.f0a3747c096c3cf10391.jpg",
+    "index.html": "./index.html",
+    "main.83bcc115.css.map": "./static/css/main.83bcc115.css.map",
+    "main.88e5dd1f.js.map": "./static/js/main.88e5dd1f.js.map",
+    "488.9561f9b8.chunk.js.map": "./static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83bcc115.css",
+    "static/js/main.88e5dd1f.js"
+  ]
+}
